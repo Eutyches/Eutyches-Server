@@ -93,11 +93,23 @@ class cfgVehicles
 			"eutyches_clothing\tshirt_ust_co.paa"
 		};
 	};
-	class Hoodie_ColorBase;
-	class hoodie_hobbit: Hoodie_ColorBase
+		class tshirt_stolaf: TShirt_ColorBase
 	{
-		displayName="Mr. Baggins Hoodie by Eutyches";
-		descriptionShort="Baggins Hoodie by Eutyches";
+		displayName="University of St. Thomas T-Shirt by Eutyches";
+		descriptionShort="UST T-Shirt by Eutyches";
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"eutyches_clothing\tshirt_stolaf_co.paa",
+			"eutyches_clothing\tshirt_stolaf_co.paa",
+			"eutyches_clothing\tshirt_stolaf_co.paa"
+		};
+	};
+	class Hoodie_ColorBase;
+	class hoodie_middleearth: Hoodie_ColorBase
+	{
+		displayName="Middle Earth Server Friendship Hoodie by Eutyches";
+		descriptionShort="Friendship Hoodie by Eutyches";
 		scope=2;
 		hiddenSelectionsTextures[]=
 		{
@@ -105,9 +117,9 @@ class cfgVehicles
             "",
             "",
             "",
-			"eutyches_clothing\hoodie_baggins_co.paa",
-			"eutyches_clothing\hoodie_baggins_co.paa",
-			"eutyches_clothing\hoodie_baggins_co.paa"
+			"eutyches_clothing\hoodie_middleearth_co.paa",
+			"eutyches_clothing\hoodie_middleearth_co.paa",
+			"eutyches_clothing\hoodie_middleearth_co.paa"
 		};
 	};
 };		
